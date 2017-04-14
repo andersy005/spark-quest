@@ -168,3 +168,14 @@ pair = ('a', 'b')
 pair[0] # will return 'a'
 pair[1] # will return 'b'
 ```
+
+
+
+
+## Review Questions
+
+1. What happens when an action is executed?
+     - Executors prepare the data for operation in parallel  
+     - The driver sends code to be executed on each block  
+     - A cache is created for storing partial results in memory  
+     - Data is partitioned into different blocks across the cluster
